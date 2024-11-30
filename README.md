@@ -52,3 +52,7 @@ The Lenovo ThinkPad 11e Gen 6 features the following components:
 ## License
 
 This project is open source, and you are free to use and modify the provided resources for personal use. However, keep in mind that Hackintosh configurations can be inherently unstable, so use at your own risk.
+
+## Link
+
+EFI (use the most recent one! : [EFI](https://drive.google.com/drive/folders/1JpxRh1pAzdzEUDgpzRnIozxWf86ppdEl?usp=sharing)
