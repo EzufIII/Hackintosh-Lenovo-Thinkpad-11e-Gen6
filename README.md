@@ -1,41 +1,54 @@
-# Hackintosh on Lenovo Thinkpad 11e
+# Hackintosh on Lenovo ThinkPad 11e
 
-Welcome to the Hackintosh setup guide for the Lenovo Thinkpad 11e! as the bootloader.
-!!THIS IS NOT A TUTORIAL!!
+Welcome to the Hackintosh setup guide for the Lenovo ThinkPad 11e! This guide provides the necessary resources and tools to install macOS on the Lenovo ThinkPad 11e Gen 6 using OpenCore as the bootloader.
 
-## Description
+**Note**: This is **not** a step-by-step tutorial, but rather a compilation of relevant information to help you through the process.
 
-The goal of this project is to enable the installation of macOS on the Lenovo Thinkpad 11e gen 6. T
+## Project Overview
 
-**What you'll find here**:
+The goal of this project is to enable the installation and operation of macOS on the Lenovo ThinkPad 11e Gen 6. The ThinkPad 11e is a budget-friendly device, and while macOS isn't officially supported, it is possible to get macOS running on it with the right configuration and setup.
 
-- The resources and tools needed for a successful install
+### What You'll Find Here:
 
-## Hardware Used
+- Resources and tools to help you successfully install macOS
+- Configuration files for OpenCore bootloader
+- Details about what works and what doesn't on this particular hardware
 
-The Lenovo Thinkpad 11e gen 6 features the following components:
+## Hardware Specifications
 
-- **Processor**: Intel core m3-8100y
+The Lenovo ThinkPad 11e Gen 6 features the following components:
+
+- **Processor**: Intel Core m3-8100Y
 - **Graphics**: Intel UHD Graphics 615
-- **Memory**: 8GB RAM  
-- **Storage**: 128GB SSD 
-- **Network Card**: Intel 
+- **Memory**: 8GB RAM
+- **Storage**: 128GB SSD
+- **Network Card**: Intel (specific model may vary)
 
 ## Software Prerequisites
 
-- **macOS Version**: macOS Ventura (Only Tested With Macos **Ventura**)
+- **macOS Version**: macOS Ventura (Tested with macOS **Ventura**)
 - **Bootloader**: OpenCore
 
-## Whats working and not working yet (WIP)
- **Whats Working:**
- -iGPU graphic acceleration
- -Wifi and Bluetooth
- -Handoff and Universal Copy Paste
- **Whats NOT Working (WIP)
- -Touch Screen
- -Touch Pad
- -Airdrop And Continuity Stuff (Airdrop etc...)
- -
----
+**Note**: This setup has been tested and verified on macOS Ventura, and newer macOS versions may not be fully compatible without further updates to the configuration.
 
+## What's Working (So Far)
 
+- **iGPU Graphics Acceleration**
+- **Wi-Fi & Bluetooth**
+- **Handoff & Universal Clipboard**:
+
+## What's Not Working (Work in Progress)
+
+- **Touchscreen**: Not functional (still investigating potential drivers or patches)
+- **Touchpad**: Currently not working (some users have had success with third-party kexts, but more testing is needed)
+- **AirDrop & Continuity Features**: Not functional (features like AirDrop and Universal Control are currently not working)
+
+## Installation Notes
+
+- This setup requires advanced knowledge of Hackintosh installation procedures, including BIOS settings adjustments, OpenCore configuration, and kext installations.
+- Ensure you have a USB drive (16GB or more) for creating a bootable macOS installer.
+- If you're new to Hackintoshing, I recommend researching the Hackintosh community for general setup tips and troubleshooting strategies.
+
+## License
+
+This project is open source, and you are free to use and modify the provided resources for personal use. However, keep in mind that Hackintosh configurations can be inherently unstable, so use at your own risk.
