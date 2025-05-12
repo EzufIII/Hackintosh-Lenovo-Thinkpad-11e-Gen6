@@ -40,7 +40,6 @@ The Lenovo ThinkPad 11e Gen 6 features the following components:
 ## What's Not Working (Work in Progress)
 
 - **Touchscreen**: Not functional (still investigating potential drivers or patches)
-- **Touchpad**: Currently not working (some users have had success with third-party kexts, but more testing is needed)
 - **AirDrop & Continuity Features**: Not functional (features like AirDrop and Universal Control are currently not working)
 
 ## Installation Notes
