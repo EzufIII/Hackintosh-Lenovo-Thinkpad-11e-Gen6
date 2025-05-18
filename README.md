@@ -26,7 +26,7 @@ The Lenovo ThinkPad 11e Gen 6 features the following components:
 
 ## Software Prerequisites
 
-- **macOS Version**: macOS Ventura (Tested with macOS **Ventura**)
+- **macOS Version**: macOS Sonoma & Ventura (Tested with macOS **Ventura & Sonoma**)
 - **Bootloader**: OpenCore
 
 **Note**: This setup has been tested and verified on macOS Ventura, and newer macOS versions may not be fully compatible without further updates to the configuration.
